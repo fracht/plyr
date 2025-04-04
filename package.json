@@ -1,5 +1,5 @@
 {
-  "name": "plyr",
+  "name": "@alcs/plyr",
   "version": "3.7.8",
   "description": "A simple, accessible and customizable HTML5, YouTube and Vimeo media player",
   "homepage": "https://plyr.io",
@@ -99,5 +99,6 @@
     "loadjs": "^4.2.0",
     "rangetouch": "^2.0.1",
     "url-polyfill": "^1.1.12"
-  }
+  },
+  "packageManager": "pnpm@10.7.1"
 }

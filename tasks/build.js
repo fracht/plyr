@@ -134,7 +134,7 @@ Object.entries(build.js).forEach(([filename, entry]) => {
             },
           ),
         )
-        .pipe(gulpIf(() => extension !== 'mjs', header('typeof navigator === "object" && '))) // "Support" SSR (#935)
+        .pipe(gulpIf(() => extension !== 'mjs', header('typeof window === "object" && '))) // "Support" SSR (#935)
         .pipe(
           rename({
             extname: `.${extension}`,
